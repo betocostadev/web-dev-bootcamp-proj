@@ -3,6 +3,8 @@
   --darkRed: #1d0403;
   --skyBlue: #5bb6da;
   --lightBlue: #b5f6ff;
+  --footLightBlue: rgba(106, 179, 197, 1);
+  --footWhite: rgba(210, 235, 241, 0.575);
   --gore: #491508;
 }
 
@@ -36,6 +38,10 @@ p   {
 body {
   margin: 0 10%;
   background-color: var(--lightBlue);
+}
+
+footer {
+  background-image: linear-gradient(to right, var(--footLightBlue), var(--footWhite));
 }
 
 form {
