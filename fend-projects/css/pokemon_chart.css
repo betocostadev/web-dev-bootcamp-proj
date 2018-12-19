@@ -1,0 +1,50 @@
+/* VARIABLES */
+:root {
+  --darkRed: #1d0403;
+  --skyBlue: rgb(91, 182, 218);
+  --gore: #491508;
+}
+
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-weight: 400; */
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+/* MEDIA CATCH ALL */
+img, embed, object, video {
+  max-width: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5rem;
+  color: var(--darkRed);
+}
+
+p   {
+  margin: 0.5rem;
+}
+
+body {
+  margin: 0 10%;
+  background-color: var(--skyBlue);
+}
+
+table {
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+
+td, th{
+  border: 1px solid black;
+  padding: 0.3rem;
+  color: var(--gore);
+  text-align: center;
+}
