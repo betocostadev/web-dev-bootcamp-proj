@@ -36,16 +36,37 @@ p   {
 }
 
 body {
+  margin: 0;
+  background-color: var(--lightBlue);
+}
+
+header {
+  margin: 0 10% 25px 10%;
+  text-align: right;
+}
+
+main {
   margin: 0 10%;
   background-color: var(--lightBlue);
 }
 
 footer {
+  margin-top: 15px;
+  height: 10vh;
   background-image: linear-gradient(to right, var(--footLightBlue), var(--footWhite));
+}
+
+footer img {
+  max-height: 10vh;
+  margin-bottom: -2px;
 }
 
 form {
   margin: 20px 10% auto;
+  padding: 10px;
+  border: 1px solid rgb(37, 37, 37);
+  box-shadow: 4px 5px 12px 3px rgba(105,105,105,0.7);
+  background-color: #fff;
 }
 
 #sendForm {
