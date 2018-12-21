@@ -1,0 +1,101 @@
+/* VARIABLES */
+:root {
+  --darkRed: #1d0403;
+  --skyBlue: #5bb6da;
+  --lightBlue: #b5f6ff;
+  --footLightBlue: rgba(106, 179, 197, 1);
+  --footWhite: rgba(210, 235, 241, 0.575);
+  --gore: #491508;
+  --myOrange: #e7a01d;
+}
+
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-weight: 400; */
+}
+
+*,
+*:before,
+*:after {
+box-sizing: inherit;
+}
+
+/* MEDIA CATCH ALL */
+img, embed, object, video {
+  max-width: 50%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5rem;
+  color: var(--darkRed);
+}
+
+p   {
+  margin: 0.5rem;
+}
+
+body {
+  margin: 0;
+  background-color: var(--myOrange);
+}
+
+header {
+  margin: 0 10% 25px 10%;
+  text-align: right;
+}
+
+main {
+  margin: 0 10%;
+}
+
+footer {
+  margin-top: 15px;
+  height: 10vh;
+}
+
+ul {
+  background-color: var(--footLightBlue);
+  border: solid 1px wheat;
+  padding: 25px;
+  margin: 20px 25%;
+}
+
+ul>li:nth-child(1) {
+  color: green;
+}
+li:nth-child(2) {
+  color: yellow;
+}
+li:nth-child(3) {
+  color: red;
+}
+li:nth-of-type(4) {
+  color: darkgreen;
+  text-decoration: line-through;
+}
+
+li {
+  font-size: 1.15rem;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+a[href] {
+  color: var(--lightBlue);
+}
+
+a[href]:hover {
+  color: var(--gore);
+}
+
+/* a[href="https://www.google.com"] {
+  color: gray;
+}
+
+input[type="checkbox"] {
+  color: red;
+} */
