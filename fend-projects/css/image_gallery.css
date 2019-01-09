@@ -1,0 +1,21 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.8em;
+  width: 30%;
+  margin-left: 1.5%;
+  padding-bottom: 0.3em;
+  border-bottom: 2px solid gray;
+  text-transform: uppercase;
+}
+
+.gallery {
+  margin: 0 auto;
+}
+
+.gallery img {
+  max-width: 30%;
+  margin: 10px 1.5%;
+}
