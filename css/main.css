@@ -92,15 +92,6 @@ section {
 }
 
 
-.project-list li:nth-child(1):hover {
-  margin-bottom: 0.5rem;
-}
-.project-list li:nth-child(2):hover {
-  margin-bottom: 0.5rem;
-}
-.project-list li:nth-child(3):hover {
-  margin-bottom: 0.5rem;
-}
-.project-list li:nth-child(4):hover {
-  margin-top: 0.5rem;
+.project-list a:hover {
+  border-left: 10px solid brown;
 }
