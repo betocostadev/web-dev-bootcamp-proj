@@ -11,10 +11,14 @@ Projects include:
 3. *Basic Javascript*
 4. *Dom Manipulation*
 5. *Back End Basics*
-* Not done yet.
+* *Not done yet.*
 
 ## Usage
 You may clone it and use it the way you see fit. Feel free to clone the repository :)
+
+```
+$ git clone https://github.com/betocostadev/web-dev-bootcamp-proj.git
+```
 
 ## License
 This repository uses the [MIT License](https://choosealicense.com/licenses/mit/)
