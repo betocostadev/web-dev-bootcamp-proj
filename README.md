@@ -7,10 +7,11 @@ Projects on **Front-End** and **Back-End**.
 
 Projects include:
 1. Basic CSS
-2. *Bootstrap*
-3. *Basic Javascript*
-4. *Dom Manipulation*
-5. *Back End Basics*
+2. *Bootstrap* *
+3. *Basic Javascript* *
+4. *Dom Manipulation* *
+5. *Back End Basics* *
+
 *Not done yet.
 
 ## Usage
