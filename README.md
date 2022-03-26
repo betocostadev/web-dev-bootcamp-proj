@@ -1,4 +1,9 @@
+# Archived
+
+This repository is archived
+
 # The Web Developer Bootcamp (Projects)
+
 ## Projects based on the Web Dev Bootcamp by Colt Steele
 
 ### About this repository
